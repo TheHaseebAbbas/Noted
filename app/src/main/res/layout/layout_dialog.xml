@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutDeleteNoteContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginHorizontal="@dimen/_10sdp"
+    android:background="@drawable/background_dialog">
+
+    <ImageView
+        android:id="@+id/imageDialog"
+        android:layout_width="@dimen/_25sdp"
+        android:layout_height="@dimen/_25sdp"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:contentDescription="@string/app_name"
+        tools:src="@drawable/ic_delete"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/colorWhite" />
+
+    <TextView
+        android:id="@+id/textDialogTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_8sdp"
+        android:fontFamily="@font/ubuntu_bold"
+        android:includeFontPadding="false"
+        tools:text="@string/delete_note"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/_14ssp"
+        app:layout_constraintBottom_toBottomOf="@id/imageDialog"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/imageDialog"
+        app:layout_constraintTop_toTopOf="@id/imageDialog" />
+
+    <TextView
+        android:id="@+id/textDialogMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:fontFamily="@font/ubuntu_regular"
+        android:gravity="center_vertical"
+        android:includeFontPadding="false"
+        android:paddingHorizontal="@dimen/_8sdp"
+        tools:text="@string/are_you_sure_you_want_to_delete_this_note"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/_13ssp"
+        app:layout_constraintTop_toBottomOf="@id/imageDialog" />
+
+    <TextView
+        android:id="@+id/textDialogPositive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/_8sdp"
+        android:layout_marginEnd="@dimen/_8sdp"
+        android:fontFamily="@font/ubuntu_medium"
+        android:includeFontPadding="false"
+        android:padding="@dimen/_8sdp"
+        tools:text="@string/delete_note"
+        android:textAllCaps="true"
+        android:textColor="@color/colorDelete"
+        android:textSize="@dimen/_13ssp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textDialogMessage" />
+
+    <TextView
+        android:id="@+id/textDialogNegative"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/_8sdp"
+        android:layout_marginEnd="@dimen/_8sdp"
+        android:fontFamily="@font/ubuntu_medium"
+        android:includeFontPadding="false"
+        android:padding="@dimen/_8sdp"
+        android:textAllCaps="true"
+        tools:text="@android:string/cancel"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/_13ssp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/textDialogPositive"
+        app:layout_constraintTop_toBottomOf="@id/textDialogMessage" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
