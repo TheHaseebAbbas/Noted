@@ -21,12 +21,14 @@
         <entry key="..\:/AndroidStudioProjects/Noted/app/src/main/res/drawable/ic_add.xml" value="0.2365" />
         <entry key="..\:/AndroidStudioProjects/Noted/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2365" />
         <entry key="..\:/AndroidStudioProjects/Noted/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.2365" />
+        <entry key="..\:/AndroidStudioProjects/Noted/app/src/main/res/drawable/ic_web_link.xml" value="0.18" />
         <entry key="..\:/AndroidStudioProjects/Noted/app/src/main/res/drawable/selectable_background.xml" value="0.2365" />
         <entry key="..\:/AndroidStudioProjects/Noted/app/src/main/res/layout/activity_create_note.xml" value="0.2988679352838745" />
         <entry key="..\:/AndroidStudioProjects/Noted/app/src/main/res/layout/activity_main.xml" value="0.2988679352838745" />
         <entry key="..\:/AndroidStudioProjects/Noted/app/src/main/res/layout/item_container_note.xml" value="0.4528302049755674" />
         <entry key="..\:/AndroidStudioProjects/Noted/app/src/main/res/layout/layout_add_url.xml" value="0.2988679352838745" />
         <entry key="..\:/AndroidStudioProjects/Noted/app/src/main/res/layout/layout_delete_note.xml" value="0.2988679352838745" />
+        <entry key="..\:/AndroidStudioProjects/Noted/app/src/main/res/layout/layout_dialog.xml" value="0.13802083333333334" />
         <entry key="..\:/AndroidStudioProjects/Noted/app/src/main/res/layout/layout_miscellaneous.xml" value="0.2988679352838745" />
         <entry key="..\:/AndroidStudioProjects/Noted/app/src/main/res/layout/layout_request_permission.xml" value="0.6067924746672604" />
       </map>
